@@ -9,7 +9,7 @@ func main(){
 	var name string = "kathy"
 	fmt.Println("name = ", name)
 
-	userName := "admin"
+	userName :=  "admin"
 	fmt.Println("admin Name = ", userName)
 
 	var sum int 
