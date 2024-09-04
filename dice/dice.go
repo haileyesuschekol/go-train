@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"time"
+	// "time"
 )
 
 func roll(sides int) int{
 	return rand.Intn(sides) +1
 }
 func main(){
-	rand.Seed(time.Now().UnixNano())
+	// rand.Seed(time.Now().UnixNano())
 	dice ,sides := 2,6
 	rolls := 1
 
