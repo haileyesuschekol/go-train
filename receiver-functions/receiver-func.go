@@ -9,6 +9,9 @@ type Space struct{
 	spaces []Space
 }
 
+type ParkingLot struct{
+	spaces []Space
+}
 func main(){
 
 }
